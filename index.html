@@ -11,6 +11,7 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 
     <title>Журналистик</title>
 </head>
@@ -58,33 +59,29 @@
 
     <!--Page content-->
     <div class="container content">
-        <div class="row">
-            <div class="heading heading-left">Акции</div>
-            <div class="row news-content">
-                <div class="col-lg discount-img">
-                    <div class="discount-img-first">
-                        <img src="images/discount/img1.png">
-                    </div>
-                    <div class="discount-img-second">
-                        <img src="images/discount/Img2.png">
-                    </div>
+        <div class="heading heading-left">Акции</div>
+        <div class="row news-content">
+            <div class="col-lg discount-img">
+                <img src="images/mainPage/discount/Img1.png">
+                <img src="images/mainPage/discount/Img2.png" class="discount-img-second">
+            </div>
+            <div class="col-lg news-text">
+                <div class="news-header">Только в этом месяце!</div>
+                <div class="news-description">
+                    <p>При 6-месячной подписки на детский журнал “3/9 ЦАРСТВО” оформляется бесплатная подписка на
+                        журнал “КАЛАМБУР”!!!</p>
                 </div>
-                <div class="col-lg news-text">
-                    <div class="news-header">Только в этом месяце!</div>
-                    <div class="news-description">
-                        <p>При 6-месячной подписки на детский журнал “3/9 ЦАРСТВО” оформляется бесплатная подписка на
-                            журнал “КАЛАМБУР”!!!</p>
-                    </div>
-                    <div class="news-navigation">
-                        <button type="button" class="btn btn-danger"
-                            onclick="window.location.href='subscription.html'">Оформить подписку...</button>
-                    </div>
+                <div class="news-navigation">
+                    <button type="button" class="btn btn-danger"
+                        onclick="window.location.href='subscription.html'">Оформить подписку...</button>
                 </div>
             </div>
         </div>
 
+        <!-- New stories -->
         <div class="row next-block">
             <div class="heading heading-right">Новинки</div>
+            <!-- Audio story -->
             <div class="row news-content">
                 <div class="col-lg news-text news-text-left">
                     <div class="news-header header-left">Ежедневное обновление!</div>
@@ -93,7 +90,7 @@
                     </div>
                     <div class="news-navigation">
                         <div class="zzz-img">
-                            <img src="images/newStories/audioZZZ.png">
+                            <img src="images/mainPage/newStories/audioZZZ.png">
                         </div>
                         <button type="button" class="btn btn-danger" onclick="window.location.href='audio.html'">Перейти
                             к аудиосказке...</button>
@@ -101,14 +98,15 @@
                 </div>
                 <div class="col-lg">
                     <div class="new-story-image image-right">
-                        <img src="images/newStories/night.png">
+                        <img src="images/mainPage/newStories/night.png">
                     </div>
                 </div>
             </div>
+            <!-- Video story -->
             <div class="row news-content">
                 <div class="col-lg">
                     <div class="new-story-image">
-                        <img src="images/newStories/rabbits.png">
+                        <img src="images/mainPage/newStories/rabbits.png">
                     </div>
                 </div>
                 <div class="col-lg news-text">
@@ -126,12 +124,13 @@
             </div>
         </div>
 
+        <!-- Interview -->
         <div class="row next-block">
             <div class="heading heading-left">Интервью</div>
             <div class="row news-content">
                 <div class="col-lg">
                     <div class="news-writer-image">
-                        <img src="images/writers/writer.png">
+                        <img src="images/mainPage/writers/writer.png">
                     </div>
                 </div>
                 <div class="col-lg news-text">
