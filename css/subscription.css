@@ -1,0 +1,113 @@
+.btn-danger {
+    border-radius: 15px;
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+}
+
+/* Toogle group */
+
+.form_radio_btn {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+
+.form_radio_btn label {
+    color: #181818;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 12px 15px;
+    font-size: 14px;
+    height: 45px;
+    width: 120px;
+    border: 1px solid #3B3B3D;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    user-select: none;
+}
+
+/* Checked */
+
+.form_radio_btn input[type=radio]:checked+label {
+    background: #2A3072;
+    color: #ffffff;
+}
+
+/* Hover */
+
+.form_radio_btn label:hover {
+    color: #ffffff;
+}
+
+/* End toogle group */
+
+.col-lg.subscription-img {
+    text-align: center;
+}
+
+.subscription-img img {
+    width: 65%;
+}
+
+.subscription-content {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-family: 'Prata';
+    font-size: 16px;
+}
+
+.monthes-row {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.price-value {
+    font-family: 'RadioVolna';
+    font-size: 48px;
+}
+
+.header-block {
+    height: 73px;
+}
+
+.description-header {
+    font-family: 'Broadway-normal';
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #2A3072;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.description-header p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 10px;
+    
+}
+
+.description-text {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.description-image {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+.description-image img {
+    width: 60%;
+}

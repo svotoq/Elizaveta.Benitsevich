@@ -1,0 +1,91 @@
+.content {
+    font-family: 'Prata';
+    font-size: 16px;
+    color: #000000;
+}
+
+.heading {
+    margin: 0;
+    line-height: 1;
+}
+
+.sub-header {
+    width: 100%;
+    text-align: center;
+}
+
+.interview-content {
+    margin: 0px 180px;
+}
+
+.interview-content .header {
+    width: 100%;
+    margin: 50px 0;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.preview-block {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.preview-block .text {
+    padding-right: 50px;
+    text-align: justify;
+    text-indent: 30px;
+    align-self: center;
+}
+
+.preview-block .text p {
+    margin: 1rem 0;
+}
+
+.preview-block .image {
+    text-align: right;
+}
+
+.preview-block .image img {
+    width: 320px;
+}
+
+.header-block {
+    height: 73px;
+}
+
+.interview-header {
+    font-family: 'Broadway-normal';
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #2A3072;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.interview-header p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.interview-text-content {
+    width: 100%;
+    margin: 0px 180px;
+}
+.text-question {
+    text-align: left;
+    width: 560px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.text-answer {
+    margin: 50px 0;
+    margin-left: auto;
+    width: 560px;
+    text-align: justify;
+}

@@ -1,0 +1,52 @@
+.about-content {
+    height: 100%;
+    width: 100%;
+    padding: 30px 150px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.about-text {
+    font-family: 'Prata';
+    text-align: center;
+}
+.about-images {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-background {
+    background-color: #9A9FBC;
+    height: 220px;
+    width: 220px;
+    z-index: 1;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.image-with-background img {
+    z-index: 2;
+    position: absolute;
+    width: 220px;
+}
+.image-with-background {
+    width: 235px;
+    height: 320px;
+    position: relative;
+}
+
+.image-with-background p {
+    font-family: "Broadway-Normal";
+    color: #283270;
+    position: absolute;
+    font-size: 16px;
+    bottom: 25px;
+    width: 235px;
+    text-align: center;
+}
+.image-title-double-text {
+    bottom: 0px !important;
+}

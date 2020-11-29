@@ -1,0 +1,45 @@
+.heading-separator {
+    font-family: 'Brodway-normal';
+    color: #283270;
+    text-align: center;
+    margin: 0;
+}
+.next-block {
+    margin-top: 40px;
+}
+.left-img {
+    background-size:cover;
+    float: left;
+    width: 500px;
+    margin: 7px 20px 7px 0;
+}
+.right-img {
+    background-size:cover;
+    float: right;
+    width: 500px;
+    margin: 7px 0 7px 20px; 
+}
+
+.post-header {
+    background-color: #ffffff;
+    padding: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Brodway-normal';
+    color: #283270;
+    width: 633px;
+    margin-left: auto;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.post-header-left {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.post-text {
+    font-family: "Prata";
+    font-size: 18px;
+}

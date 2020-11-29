@@ -1,0 +1,201 @@
+.liders-header {
+    font-family: 'Broadway-normal';
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #2A3072;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.liders-header p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.btn-danger {
+    border: none;
+}
+/* Carousel  */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-next {
+    right: -31px;
+}
+
+.carousel-control-prev {
+    left: -30px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/layoutContent/carousel/Next.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/layoutContent/carousel/Previous.svg);
+}
+
+.carousel-backgroud {
+    background-color: #ffffff;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.carousel-backgroud>div {
+    margin: 0 auto;
+    width: 375px;
+}
+
+.carousel-backgroud img {
+    width: 375px;
+    height: 500px;
+}
+
+/* End carousel */
+
+/* Toogle group */
+
+.form_radio_btn {
+    display: inline-block;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+
+.form_radio_btn label {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    color: #000000;
+    border-radius: 5px;
+    user-select: none;
+}
+
+/* Checked */
+
+.form_radio_btn input[type=radio]:checked+label {
+    background: #BC1818;
+    color: #ffffff;
+}
+
+/* Hover */
+
+.form_radio_btn label:hover {
+    background-color: #BC1818;
+    color: #ffffff;
+}
+
+/* End toogle group */
+
+.alphabet {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 250px;
+}
+
+.alphabet button {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.alphabet button:hover {
+    background-color: #BC1818;
+}
+
+.alphabet .btn-outline-primary {
+    border: none;
+    color: #000000;
+}
+
+/* Sell liders */
+
+.sell-liders {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sell-liders-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.sell-lider {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sell-lider .title {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Prata';
+    z-index: 3;
+}
+
+.sell-lider .price {
+    margin-top: 5px;
+    font-family: 'RadioVolna';
+    font-size: 32px;
+    z-index: 3;
+}
+
+.sell-lider img {
+    width: 250px;
+    height: 330px;
+}
+
+.sell-lider {
+    z-index: 1;
+    position: relative;
+}
+
+.hover-background {
+    display: none;
+}
+
+.sell-lider:hover .hover-background {
+    display: block;
+}
+
+.sell-lider .hover {
+    z-index: 2;
+    position: absolute;
+    background-color: #ffffff;
+    width: 300px;
+    height: 465px;
+    left: -25px;
+    top: -25px;
+    opacity: 0.6;
+}
+
+.sell-lider button {
+    position: absolute;
+    left: 25px;
+    top: 150px;
+    width: 200px;
+    z-index: 3;
+    background-color: #2A3072;
+    font-size: 24px;
+    height: 60px;
+}
